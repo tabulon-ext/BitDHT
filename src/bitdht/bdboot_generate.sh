@@ -29,7 +29,7 @@ using this.
 Example usage:
 --------------------------------
 cat bdboot.txt | bdboot_generate.sh | tee /tmp/bdboot_generated.txt
-cat /tmp/bdboot_generated.txt | sort -u > bdboot.txt
+cat /tmp/bdboot_generated.txt | sort --unique --version-sort > bdboot.txt
 --------------------------------
 README
 
